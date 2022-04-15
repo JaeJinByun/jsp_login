@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap" rel="stylesheet">
+		<link href="style_member.css" rel="stylesheet" type="text/css">
+		<style>
+			*{
+			font-family: 'Noto Serif KR', serif;
+			}
+		</style>
+	</head>
+	<body>
+		<h2> CSS 연습 </h2>
+		<form method="post" action="http://localhost:8080/JSP/person">
+			<table id=table border ="1" background="images/star.gif">
+			
+				<tr>
+					<th id=name> 이름 </th>
+					<td > <input type="text" name="name" ></td>
+				</tr>
+				<tr>
+					<th id=age> 나이 </th>
+					<td> <input type="text" name="age"></td>
+				</tr>	
+				<tr>
+					<th id=gender> 성별 </th>
+					<td>
+						 <input type="radio" name="gender" value="1">남자
+						 <input type="radio" name="gender" value="2">여자
+					</td>
+				</tr>
+				<tr>
+					<th id=hobby> 취미 </th>
+					<td>
+						<input type="checkbox" name="hobby" value="1">독서
+						<input type="checkbox" name="hobby" value="2">등산
+						<input type="checkbox" name="hobby" value="3">운동
+						<input type="checkbox" name="hobby" value="4">게임
+					</td>
+				</tr>
+				<tr>
+					<th colspan="2">
+					<div class = "btn">
+						<input class="inputbutton" type="submit" value="전송">
+						<input class="inputbutton" type="reset" value="취소">					
+					</div>
+ 				</tr>
+	
+			</table>
+		</form>
+	</body>
+</html>
