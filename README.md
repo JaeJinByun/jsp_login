@@ -52,24 +52,23 @@
 `-- jsp_login/JSP_login_form/src/main/webapp
 	`-- member
 	    `-- Main.jsp 
-	        |-- loginPro.jsp					[로그인버튼클릭시]
-	        |   `-- action      				[수정버튼,삭제버튼,로그아웃버튼]
-	        |      |-- modifyForm.jsp			[비밀번호확인창]
+	        |-- loginPro.jsp			[로그인버튼클릭시]
+	        |   `-- action      			[수정버튼,삭제버튼,로그아웃버튼]
+	        |      |-- modifyForm.jsp		[비밀번호확인창]
 	        |      |   `-- modifyView.java		[수정화면]
-			|	   |	   `-- modifyPro.java <--->  DB [수정처리]        
-	        |      |-- deleteForm.jsp 
-			|	   |   `-- deletePro.jsp <---> DB [삭제처리]
-	        |      |-- logout.jsp
-	        |          `-- Main.jsp 			[로그인화면]
+		|	   |	   `-- modifyPro.java <--->  DB [수정처리]        
+	        |      	   |-- deleteForm.jsp 
+		|	   |   `-- deletePro.jsp <---> DB [삭제처리]
+	        |          |-- logout.jsp
+	        |              `-- Main.jsp 		[로그인화면]
 	        |              
-	        |-- InputForm.jsp 					[회원가입 화면]
+	        |-- InputForm.jsp 			회원가입 화면]
 	        |   `-- inputPro.jsp <----> DB 		[가입처리]
-	        |		`-- confirmid.jsp			[아이디중복확인화면]
-		    | 
-			|-- setting.jsp 					[전역변수 저장소]
-	        |-- style_member.css				[view style]
-	        |-- script.js						[event method]
-```
+	        |     `-- confirmid.jsp			[아이디중복확인화면]
+		| 
+	 	|-- setting.jsp 			[전역변수 저장소]
+	        |-- style_member.css			[view style]
+	        |-- script.js				[event method]
 
 
 
