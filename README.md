@@ -71,12 +71,3 @@
 	        |-- script.js				[event method]
 
 
-
-
-
-
-
-
-
-
-
