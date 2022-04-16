@@ -13,33 +13,17 @@
 
 1. 화면
 
-(1) src/main/webapp/WEB-INF/view/ 밑에 화면들이 들어간다.
+(1) 화면의 종류는 모두 6개다.
 
-(2) 화면의 종류는 모두 6개다.
+Main.jsp       : 로그인 화면
+modifyForm.jsp : 수정하기 위한 비밀번호 재확인 화면
+modifyView.jsp : 개인정보 수정 화면
+deleteForm.jsp : 아이디 삭제전 비밀번호 재확인 화면  
+InputForm.jsp  : 회원정보 입력 화면
+loginForm.jsp  : 회원가입후 로그인창 
 
-boardList.jsp 
+2. co
 
-boardDetail.jsp
-
-boardCreate.jsp
-
-boardModify.jsp
-
-boardLogin.jsp
-
-boardSignin.jsp
-
-(3) boardList.jsp는 게시판 목록을 뿌려준다.
-
-(4) boardDetail.jsp는 게시글의 내용 등, 세부 사항을 보여준다. 로그인한 사용자의 권한을 체크해서 만일 글 작성자라면 삭제, 수정이 가능하다.
-
-(5) boardCreate.jsp는 새로운 글 등록 화면이다.
-
-(6) boardModify.jsp는 기존의 글을 수정하는 화면이다.
-
-(7) boardLogin.jsp는 로그인 화면이다.
-
-(8) boardSignin.jsp는 아이디 등을 입력 받아 회원 가입을 진행한다.
 
 
 
