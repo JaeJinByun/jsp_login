@@ -84,4 +84,12 @@
 	        |-- style_member.css			[view style]
 	        |-- script.js				[event method]
 
-
+```
+	
+# 사용 Library version
+	
+-   **IDE**  : Eclipse Java EE 4.22.2 (Oxygen.2 Release)
+-   **JDK**: Java 1.8
+-   **Tomcat**  : Tomcat 9.0.85
+-   **Gradle**  : Gradle 3.1.5 (Embedded in Eclipse)
+-   **DBMS**  : Oracle 5.1.35
